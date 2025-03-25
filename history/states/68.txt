@@ -1,0 +1,34 @@
+
+state={
+	id=68
+	name="STATE_68"
+	manpower = 3646247
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = SWY
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SWY
+	}
+
+	provinces={
+		2601 2660 2677 2707 2753 2788 2797 2850 2887 2927 2971 2993 3001 3008 3137 3202 3203 3227 
+	}
+	local_supplies=0.0 
+}

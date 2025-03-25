@@ -1,0 +1,34 @@
+
+state={
+	id=618
+	name="STATE_618"
+	manpower = 3822523
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = MWL
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MWL
+	}
+
+	provinces={
+		489 518 531 537 545 599 601 608 614 639 672 714 728 771 791 792 
+	}
+	local_supplies=0.0 
+}

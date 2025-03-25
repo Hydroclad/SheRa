@@ -1,0 +1,34 @@
+
+state={
+	id=139
+	name="STATE_139"
+	manpower = 3089538
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = SWY
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SWY
+	}
+
+	provinces={
+		4744 4886 4887 5059 5109 5177 5207 5327 5391 5429 5459 5524 5569 5645 5646 5718 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,33 @@
+#13409;15493;sea;-1;-1;-1;-1;-1;SALINEAS_SEA_GATE;Sea Gate
+#adjacency_rule = {
+#	name = "SALINEAS_SEA_GATE"
+#	contested = {
+#		army = no
+#		navy = no
+#		submarine = yes
+#		trade = no
+#	}
+#	enemy = {
+#		army = no
+#		navy = no
+#		submarine = no
+#		trade = no
+#	}
+#	friend = {
+#		army = yes
+#		navy = yes
+#		submarine = yes
+#		trade = yes
+#	}
+#	neutral = {
+#		army = yes
+#		navy = yes
+#		submarine = yes
+#		trade = yes
+#	}
+	
+#	required_provinces = { 2243 }
+	
+#	icon = 13255
+#	offset = { 0.0 0.0 0.0 }
+#}

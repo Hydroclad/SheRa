@@ -1,0 +1,34 @@
+
+state={
+	id=324
+	name="STATE_324"
+	manpower = 3665451
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = SWY
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+			
+		}
+		add_core_of = SWY
+	}
+
+	provinces={
+		5288 5321 5373 5374 5451 5531 5568 5575 5585 5717 5729 5738 5761 5775 5854 5966 5967 5975 6019 6043 6195 
+	}
+	local_supplies=0.0 
+}

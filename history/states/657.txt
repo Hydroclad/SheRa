@@ -1,0 +1,37 @@
+
+state={
+	id=657
+	name="STATE_657"
+	manpower = 2463482
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = SAL
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			2151 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = SAL
+	}
+
+	provinces={
+		2042 2082 2085 2086 2151 2182 2199 2223 2259 2275 2289 2393 2416 
+	}
+	local_supplies=0.0 
+}

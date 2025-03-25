@@ -1,0 +1,34 @@
+
+state={
+	id=234
+	name="STATE_234"
+	manpower = 4927319
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = OLI
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = OLI
+	}
+
+	provinces={
+		9265 9289 9299 9401 9422 9423 9428 9429 9578 9626 9671 9696 9726 9790 9829 9844 
+	}
+	local_supplies=0.0 
+}

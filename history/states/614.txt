@@ -1,0 +1,34 @@
+
+state={
+	id=614
+	name="STATE_614"
+	manpower = 3449192
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = RIN
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RIN
+	}
+
+	provinces={
+		4279 4432 4561 4585 4628 4685 4783 4809 4821 4853 4977 4978 5000 5033 5048 5074 5151 5195 5253 5299 
+	}
+	local_supplies=0.0 
+}

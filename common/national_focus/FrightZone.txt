@@ -1,0 +1,311 @@
+focus_tree = {
+	id = FRZ_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRZ
+		}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+		focus = {
+		id = FRZ0.4
+		prerequisite = {}
+
+		mutually_exclusive = { }
+		
+		icon = GFX_goal_generic_political_pressure
+		available = {
+			if = { date > 1939.1.1}
+
+			is_subject = no
+		}
+		bypass = {
+			
+			OR = {
+				has_war_with = BUU
+				is_in_faction_with = BUU
+				BUU = { is_subject_of = FRZ }
+				BUU = { has_non_aggression_pact_with = FRZ }
+			}
+		}
+		cancel_if_invalid = yes
+		x = 3
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}	
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			
+			create_wargoal = {
+				type = annex_everything
+				target = BUU
+				expire = 0
+			}
+		}
+	}
+	focus = {
+		id = FRZ0.5
+		prerequisite = {}
+
+		mutually_exclusive = { }
+		
+		icon = GFX_goal_generic_political_pressure
+		available = {
+			if = { date > 1939.1.1}
+
+			is_subject = no
+		}
+		bypass = {
+			
+			OR = {
+				has_war_with = GOB
+				is_in_faction_with = GOB
+				GOB = { is_subject_of = FRZ }
+				GOB = { has_non_aggression_pact_with = FRZ }
+			}
+		}
+		cancel_if_invalid = yes
+		x = 3
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}	
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			
+			create_wargoal = {
+				type = annex_everything
+				target = GOB
+				expire = 0
+			}
+		}
+	}
+	focus = {
+		id = FRZ0.6
+		prerequisite = {}
+
+		mutually_exclusive = { }
+		
+		icon = GFX_goal_generic_political_pressure
+		available = {
+			if = { date > 1939.1.1}
+
+			is_subject = no
+		}
+		bypass = {
+			
+			OR = {
+				has_war_with = SWY
+				is_in_faction_with = SWY
+				SWY = { is_subject_of = FRZ }
+				SWY = { has_non_aggression_pact_with = FRZ }
+			}
+		}
+		cancel_if_invalid = yes
+		x = 3
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}	
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			
+			create_wargoal = {
+				type = annex_everything
+				target = SWY
+				expire = 0
+			}
+		}
+	}
+	focus = {
+		id = FRZ1.0
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {}
+
+		mutually_exclusive = { }
+		
+		x = 5
+		y = 1
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		available_if_capitulated = yes
+		available = {
+			if = { date > 1936.1.1}
+
+		}
+		bypass = {
+			
+		}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			FRZ = {
+			set_rule = { can_create_factions = yes }
+			create_faction = FrightZone_Axis
+			}
+		}
+	}
+	focus = {
+		id = FRZ1000.0
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {}
+
+		mutually_exclusive = { }
+		
+		x = 7
+		y = 1
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		available_if_capitulated = yes
+		available = {
+			if = { date > 1936.1.1}
+
+		}
+		bypass = {
+			
+		}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			army_experience = 500
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = FRZ1000.1
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = FRZ1000.0 }
+
+		mutually_exclusive = { focus = FRZ1000.2 }
+		
+		x = 7
+		y = 2
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		available_if_capitulated = yes
+		available = {
+			if = { date > 1936.1.1}
+
+		}
+		bypass = {
+			
+		}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			army_experience = 500
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = FRZ1000.2
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = FRZ1000.0 }
+
+		mutually_exclusive = { focus = FRZ1000.1 }
+		
+		x = 9
+		y = 2
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		available_if_capitulated = yes
+		available = {
+			if = { date > 1936.1.1}
+
+		}
+		bypass = {
+			
+		}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			army_experience = 500
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = FRZ1001.3
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = FRZ1000.1  focus = FRZ1000.2 }
+
+		mutually_exclusive = { }
+		
+		x = 7
+		y = 3
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		available_if_capitulated = yes
+		available = {
+			if = { date > 1936.1.1}
+
+		}
+		bypass = {
+			
+		}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			navy_experience = 500
+			
+		}
+	}
+	focus = {
+		id = FRZ1002.4
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = FRZ1000.1  focus = FRZ1000.2 }
+
+		mutually_exclusive = { }
+		
+		x = 7
+		y = 4
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		available_if_capitulated = yes
+		available = {
+			if = { date > 1936.1.1}
+
+		}
+		bypass = {
+			
+		}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			navy_experience = 500
+			
+		}
+	}
+
+	
+}

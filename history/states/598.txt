@@ -1,0 +1,34 @@
+
+state={
+	id=598
+	name="STATE_598"
+	manpower = 2176949
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = RIN
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RIN
+	}
+
+	provinces={
+		389 520 658 659 670 671 685 718 725 779 828 835 916 
+	}
+	local_supplies=0.0 
+}

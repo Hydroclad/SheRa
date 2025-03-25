@@ -1,0 +1,34 @@
+
+state={
+	id=75
+	name="STATE_75"
+	manpower = 3773949
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = HNG
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HNG
+	}
+
+	provinces={
+		3788 3918 4005 4033 4060 4215 4259 4302 4373 4487 4496 4535 4608 4609 4734 4735 
+	}
+	local_supplies=0.0 
+}

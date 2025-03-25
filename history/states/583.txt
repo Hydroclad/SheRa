@@ -1,0 +1,34 @@
+
+state={
+	id=583
+	name="STATE_583"
+	manpower = 4092029
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = JIT
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = JIT
+	}
+
+	provinces={
+		1867 1890 1917 1935 1988 2033 2049 2080 2124 2134 2144 2229 2230 2239 2262 2321 2328 2372 2379 
+	}
+	local_supplies=0.0 
+}

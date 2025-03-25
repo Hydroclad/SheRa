@@ -1,0 +1,34 @@
+
+state={
+	id=77
+	name="STATE_77"
+	manpower = 4432619
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = SEV
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SEV
+	}
+
+	provinces={
+		3248 3296 3373 3374 3419 3444 3452 3483 3531 3532 3556 3616 3617 3650 3807 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=254
+	name="STATE_254"
+	manpower = 5237132
+	
+	state_category = city
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = BRO
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BRO
+	}
+
+	provinces={
+		9490 9512 9520 9528 9567 9603 9656 9699 9716 9724 9764 9779 9808 9823 9849 9933 9978 
+	}
+	local_supplies=0.0 
+}

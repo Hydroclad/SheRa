@@ -1,0 +1,8 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+
+
+
+2243;1863;sea;13255;-1;-1;-1;-1;;Salineas Crossings
+1875;1853;sea;13227;-1;-1;3985;682;;Salineas Crossings
+
+-1;-1;-1;-1;-1;-1;-1;-1;-1

@@ -1,0 +1,37 @@
+
+state={
+	id=611
+	name="STATE_611"
+	manpower = 6477914
+	
+	state_category = town
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = SEV
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+			3095 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = SEV
+	}
+
+	provinces={
+		3095 3101 3112 3136 3189 3212 3266 3267 3332 3341 3381 3492 3493 3509 3554 3565 3573 3681 3708 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=182
+	name="STATE_182"
+	manpower = 4965909
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = LSH
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = LSH
+	}
+
+	provinces={
+		2494 2571 2680 2716 2792 2809 2842 2843 2865 3014 3045 3052 3139 3241 3298 3320 3368 3513 
+	}
+	local_supplies=0.0 
+}

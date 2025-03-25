@@ -1,0 +1,34 @@
+
+state={
+	id=78
+	name="STATE_78"
+	manpower = 5010970
+	
+	state_category = wasteland
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = FRZ
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FRZ
+	}
+
+	provinces={
+		3992 4230 4247 4266 4308 4309 4331 4354 4420 4458 4474 4491 4500 4507 4508 4540 4541 4590 4638 
+	}
+	local_supplies=0.0 
+}

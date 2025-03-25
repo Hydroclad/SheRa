@@ -1,0 +1,34 @@
+
+state={
+	id=485
+	name="STATE_485"
+	manpower = 4083493
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = BRO
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BRO
+	}
+
+	provinces={
+		8274 8283 8313 8329 8425 8508 8509 8527 8548 8616 8679 8680 8719 8755 8814 
+	}
+	local_supplies=0.0 
+}

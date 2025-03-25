@@ -1,0 +1,34 @@
+
+state={
+	id=168
+	name="STATE_168"
+	manpower = 4576474
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = MYS
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MYS
+	}
+
+	provinces={
+		9840 9980 10029 10093 10144 10145 10146 10252 10271 10281 10377 10427 10438 10506 10552 10558 
+	}
+	local_supplies=0.0 
+}

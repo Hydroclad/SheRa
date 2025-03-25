@@ -1,0 +1,33 @@
+
+state={
+	id=603
+	name="STATE_603"
+	resources={
+		aluminium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = FRZ
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+
+		}
+		add_core_of = FRZ
+
+	}
+
+	provinces={
+		1998 2017 2120 2126 2163 2196 2236 2271 2355 2358 2390 2399 2428 2484 2489 2507 2572 2628 
+	}
+	manpower=3390928
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	local_supplies=0.000
+}

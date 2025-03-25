@@ -1,0 +1,34 @@
+
+state={
+	id=341
+	name="STATE_341"
+	manpower = 4917722
+	
+	state_category = large_city
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = FRZ
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FRZ
+	}
+
+	provinces={
+		4090 4197 4277 4330 4339 4376 4436 4539 4549 4581 
+	}
+	local_supplies=0.0 
+}

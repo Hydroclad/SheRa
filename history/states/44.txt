@@ -1,0 +1,34 @@
+
+state={
+	id=44
+	name="STATE_44"
+	manpower = 4826329
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = DRY
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DRY
+	}
+
+	provinces={
+		8366 8450 8476 8518 8539 8602 8608 8622 8659 8716 8728 8737 8742 8811 8860 8875 8942 
+	}
+	local_supplies=0.0 
+}

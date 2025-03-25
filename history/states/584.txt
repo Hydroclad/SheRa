@@ -1,0 +1,34 @@
+
+state={
+	id=584
+	name="STATE_584"
+	manpower = 4860121
+	
+	state_category = city
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = PLM
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = PLM
+	}
+
+	provinces={
+		5666 5759 5782 5789 5885 5917 5949 5950 6028 6051 6059 6089 6105 6194 6208 6216 6291 6310 6357 
+	}
+	local_supplies=0.0 
+}

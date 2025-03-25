@@ -1,0 +1,34 @@
+
+state={
+	id=374
+	name="STATE_374"
+	manpower = 4216261
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = LSH
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = LSH
+	}
+
+	provinces={
+		2067 2213 2214 2279 2286 2337 2370 2371 2395 2516 2548 2578 2596 2687 2701 2837 
+	}
+	local_supplies=0.0 
+}

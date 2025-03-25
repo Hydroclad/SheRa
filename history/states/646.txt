@@ -1,0 +1,34 @@
+
+state={
+	id=646
+	name="STATE_646"
+	manpower = 4063066
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = HNG
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HNG
+	}
+
+	provinces={
+		3997 4020 4061 4062 4194 4226 4239 4260 4280 4374 4408 4497 4573 4610 4632 4736 4746 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=659
+	name="STATE_659"
+	manpower = 5359697
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = PLM
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = PLM
+	}
+
+	provinces={
+		7888 7905 8015 8035 8067 8155 8165 8173 8216 8254 8273 8297 8298 8344 8471 8472 
+	}
+	local_supplies=0.0 
+}

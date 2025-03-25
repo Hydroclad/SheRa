@@ -1,0 +1,34 @@
+
+state={
+	id=357
+	name="STATE_357"
+	manpower = 5820708
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = BRO
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BRO
+	}
+
+	provinces={
+		10800 10837 10888 10899 10966 10994 11011 11043 11086 11098 11108 11112 11116 11141 11163 11198 11200 11213 
+	}
+	local_supplies=0.0 
+}

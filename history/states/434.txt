@@ -1,0 +1,34 @@
+
+state={
+	id=434
+	name="STATE_434"
+	manpower = 3356333
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = SAL
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SAL
+	}
+
+	provinces={
+		1383 1460 1468 1564 1578 1579 1612 1623 1650 1732 1739 1755 1797 1814 1898 1942 
+	}
+	local_supplies=0.0 
+}

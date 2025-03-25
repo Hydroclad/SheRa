@@ -1,0 +1,34 @@
+
+state={
+	id=70
+	name="STATE_70"
+	manpower = 4117987
+	
+	state_category = rural
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = DRY
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DRY
+	}
+
+	provinces={
+		6901 6904 6924 7039 7072 7090 7116 7182 7195 7261 7320 7387 7440 7461 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,50 @@
+
+state={
+	id=263
+	name="STATE_263"
+	resources={
+		aluminium=15
+		chromium=15
+		oil=15
+		rubber=15
+		steel=15
+		tungsten=15
+	}
+
+	history={
+		owner = SAL
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 5
+
+			2243 = {
+				naval_base = 8
+			}
+			1875 = {
+				naval_base = 2
+			}
+			1853 = {
+				naval_base = 2
+			}
+			1863 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			2243 15
+		}
+		add_core_of = SAL
+
+	}
+
+	provinces={
+		1410 1411 1412 1423 1434 1435 1467 1495 1509 1527 1544 1545 1562 1574 1602 1616 1621 1637 1644 1658 1676 1693 1708 1710 1725 1731 1737 1749 1783 1794 1808 1813 1839 1853 1862 1863 1869 1875 1897 1906 1910 1911 1981 1992 2020 2032 2036 2092 2139 2198 2204 2243 2251 
+	}
+	manpower=5875742
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	local_supplies=0.000
+}
